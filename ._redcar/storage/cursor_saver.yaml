@@ -1,0 +1,69 @@
+--- 
+cursor_positions: 
+  - :path: db/seeds.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 09:42:01.987000 +02:00
+  - :path: app/assets/stylesheets/scaffolds.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 10:15:48.715000 +02:00
+  - :path: app/views/users/show.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 10:15:48.391000 +02:00
+  - :path: app/views/users/_form.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 10:15:48.403000 +02:00
+  - :path: app/helpers/home_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 09:59:50.124000 +02:00
+  - :path: app/helpers/application_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 09:42:00.784000 +02:00
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 09:42:00.782000 +02:00
+  - :path: app/controllers/home_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 09:59:49.974000 +02:00
+  - :path: app/views/users/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 10:15:48.394000 +02:00
+  - :path: app/assets/javascripts/users.js.coffee
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 10:15:48.579000 +02:00
+  - :path: app/assets/stylesheets/users.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 10:15:48.624000 +02:00
+  - :path: app/helpers/users_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 10:15:48.482000 +02:00
+  - :path: app/models/user.rb
+    :cursor_offset: 172
+    :timestamp: 2012-10-02 10:23:43.207000 +02:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 09:42:00.789000 +02:00
+  - :path: app/views/users/index.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 10:15:48.387000 +02:00
+  - :path: config/routes.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 10:15:48.237000 +02:00
+  - :path: config/environment.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 09:42:00.818000 +02:00
+  - :path: config/application.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 09:42:00.816000 +02:00
+  - :path: config/database.yml
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 09:42:01.984000 +02:00
+  - :path: db/development.sqlite3
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 10:46:00.684000 +02:00
+  - :path: db/migrate/20121002081548_create_users.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 10:15:48.169000 +02:00
+  - :path: db/test.sqlite3
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 09:54:13.443000 +02:00
+files_to_retain: 0
