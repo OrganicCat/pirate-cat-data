@@ -51,10 +51,10 @@ class ResumesController < ApplicationController
   
   # POST /resume/1
   def update
-    @resume = User.find(params[:id])
+    @resume = Resume.find(params[:id])
 
     respond_to do |format|
-      if @resume.update_attributes(params[:user])
+      if @resume.update_attributes(params[:resume])
         format.html { redirect_to @resume, notice: 'Resume was successfully updated.' }
         format.json { head :no_content }
       else
