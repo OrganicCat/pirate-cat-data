@@ -11,7 +11,41 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121002081548) do
+ActiveRecord::Schema.define(:version => 20121002101043) do
+
+  create_table "jobs", :force => true do |t|
+    t.string   "name"
+    t.integer  "years"
+    t.text     "summary"
+    t.string   "company"
+    t.integer  "resume_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "jobs", ["resume_id"], :name => "index_jobs_on_resume_id"
+
+  create_table "resumes", :force => true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "title"
+    t.text     "header_content"
+    t.text     "main_content"
+    t.text     "summary_content"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
+  create_table "skills", :force => true do |t|
+    t.string   "name"
+    t.integer  "years"
+    t.string   "rating"
+    t.integer  "resume_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "skills", ["resume_id"], :name => "index_skills_on_resume_id"
 
   create_table "users", :force => true do |t|
     t.string   "first_name"

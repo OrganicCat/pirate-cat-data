@@ -3,18 +3,6 @@ cursor_positions:
   - :path: db/seeds.rb
     :cursor_offset: 0
     :timestamp: 2012-10-02 09:42:01.987000 +02:00
-  - :path: app/assets/stylesheets/scaffolds.css.scss
-    :cursor_offset: 0
-    :timestamp: 2012-10-02 10:15:48.715000 +02:00
-  - :path: app/views/users/show.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-10-02 10:15:48.391000 +02:00
-  - :path: app/views/users/_form.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-10-02 10:15:48.403000 +02:00
-  - :path: app/helpers/home_helper.rb
-    :cursor_offset: 0
-    :timestamp: 2012-10-02 09:59:50.124000 +02:00
   - :path: app/helpers/application_helper.rb
     :cursor_offset: 0
     :timestamp: 2012-10-02 09:42:00.784000 +02:00
@@ -24,33 +12,9 @@ cursor_positions:
   - :path: app/controllers/home_controller.rb
     :cursor_offset: 0
     :timestamp: 2012-10-02 09:59:49.974000 +02:00
-  - :path: app/views/users/new.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-10-02 10:15:48.394000 +02:00
-  - :path: app/assets/javascripts/users.js.coffee
-    :cursor_offset: 0
-    :timestamp: 2012-10-02 10:15:48.579000 +02:00
   - :path: app/assets/stylesheets/users.css.scss
     :cursor_offset: 0
     :timestamp: 2012-10-02 10:15:48.624000 +02:00
-  - :path: app/helpers/users_helper.rb
-    :cursor_offset: 0
-    :timestamp: 2012-10-02 10:15:48.482000 +02:00
-  - :path: app/models/user.rb
-    :cursor_offset: 172
-    :timestamp: 2012-10-02 10:23:43.207000 +02:00
-  - :path: app/views/layouts/application.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-10-02 09:42:00.789000 +02:00
-  - :path: app/views/users/index.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-10-02 10:15:48.387000 +02:00
-  - :path: config/routes.rb
-    :cursor_offset: 0
-    :timestamp: 2012-10-02 10:15:48.237000 +02:00
-  - :path: config/environment.rb
-    :cursor_offset: 0
-    :timestamp: 2012-10-02 09:42:00.818000 +02:00
   - :path: config/application.rb
     :cursor_offset: 0
     :timestamp: 2012-10-02 09:42:00.816000 +02:00
@@ -66,4 +30,161 @@ cursor_positions:
   - :path: db/test.sqlite3
     :cursor_offset: 0
     :timestamp: 2012-10-02 09:54:13.443000 +02:00
+  - :path: db/schema.rb
+    :cursor_offset: 1012
+    :timestamp: 2012-10-02 10:18:34.857000 +02:00
+  - :path: db/migrate/20121002093614_create_jobs.rb
+    :cursor_offset: 122
+    :timestamp: 2012-10-02 11:50:43.681000 +02:00
+  - :path: app/helpers/resumes_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 12:14:14.683000 +02:00
+  - :path: test/unit/resume_test.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 12:10:49.972000 +02:00
+  - :path: test/unit/job_test.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 11:36:14.398000 +02:00
+  - :path: test/unit/helpers/users_helper_test.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 10:15:48.528000 +02:00
+  - :path: test/unit/helpers/resumes_helper_test.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 12:14:14.728000 +02:00
+  - :path: test/fixtures/jobs.yml
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 11:36:14.401000 +02:00
+  - :path: db/migrate/20121002093945_create_skills.rb
+    :cursor_offset: 126
+    :timestamp: 2012-10-02 11:51:06.458000 +02:00
+  - :path: app/controllers/resumes_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 12:18:41.062000 +02:00
+  - :path: db/migrate/20121002101043_create_resumes.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 12:10:43.404000 +02:00
+  - :path: test/fixtures/resumes.yml
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 12:10:49.975000 +02:00
+  - :path: test/unit/skill_test.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 11:39:45.996000 +02:00
+  - :path: app/views/resume/create.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 12:24:18.779000 +02:00
+  - :path: app/helpers/home_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 09:59:50.124000 +02:00
+  - :path: app/controllers/users_controller.rb
+    :cursor_offset: 233
+    :timestamp: 2012-10-02 10:15:48.273000 +02:00
+    :selection_offset: 48
+    :block_selection_mode: false
+  - :path: app/views/users/index.html.erb
+    :cursor_offset: 132
+    :timestamp: 2012-10-02 10:15:48.387000 +02:00
+  - :path: app/controllers/resume_controller.rb
+    :cursor_offset: 95
+    :timestamp: 2012-10-02 16:03:15.025000 +02:00
+  - :path: app/views/users/new.html.erb
+    :cursor_offset: 75
+    :timestamp: 2012-10-02 10:15:48.394000 +02:00
+  - :path: app/views/home/index.html.erb
+    :cursor_offset: 64
+    :timestamp: 2012-10-02 10:19:41.598000 +02:00
+  - :path: app/assets/javascripts/resume.js.coffee
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 12:24:18.946000 +02:00
+  - :path: app/assets/javascripts/users.js.coffee
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 10:15:48.579000 +02:00
+  - :path: app/assets/stylesheets/scaffolds.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 10:15:48.715000 +02:00
+  - :path: app/views/resume/show.html.erb
+    :cursor_offset: 548
+    :timestamp: 2012-10-02 16:15:30.428000 +02:00
+  - :path: app/models/user.rb
+    :cursor_offset: 81
+    :timestamp: 2012-10-02 10:23:43.207000 +02:00
+  - :path: config/environment.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 09:42:00.818000 +02:00
+  - :path: app/views/resume/new.html.erb
+    :cursor_offset: 78
+    :timestamp: 2012-10-02 16:28:52.855000 +02:00
+  - :path: app/views/resume/index.html.erb
+    :cursor_offset: 708
+    :timestamp: 2012-10-02 16:33:31.736000 +02:00
+  - :path: app/views/resume/_form.html.erb
+    :cursor_offset: 1021
+    :timestamp: 2012-10-02 16:29:45.050000 +02:00
+  - :path: Rakefile
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 09:42:00.745000 +02:00
+  - :path: README.rdoc
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 09:42:00.743000 +02:00
+  - :path: config.ru
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 09:42:00.748000 +02:00
+  - :path: app/helpers/skills_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 16:07:31.576000 +02:00
+  - :path: app/helpers/resume_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 12:24:18.852000 +02:00
+  - :path: app/helpers/users_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 10:15:48.482000 +02:00
+  - :path: app/views/users/_form.html.erb
+    :cursor_offset: 300
+    :timestamp: 2012-10-02 10:15:48.403000 +02:00
+  - :path: app/views/users/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 10:15:48.389000 +02:00
+    :selection_offset: 109
+    :block_selection_mode: false
+  - :path: app/models/skill.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 11:39:45.943000 +02:00
+  - :path: app/views/resumes/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 16:28:52.855000 +02:00
+  - :path: app/views/resumes/_form.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 16:29:45.050000 +02:00
+  - :path: app/models/resume.rb
+    :cursor_offset: 172
+    :timestamp: 2012-10-02 15:58:55.629000 +02:00
+  - :path: app/controllers/jobs_controller.rb
+    :cursor_offset: 10
+    :timestamp: 2012-10-03 13:12:19.297000 +02:00
+  - :path: app/controllers/skills_controller.rb
+    :cursor_offset: 59
+    :timestamp: 2012-10-02 16:52:53.462000 +02:00
+  - :path: app/assets/stylesheets/application.css
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 09:42:00.781000 +02:00
+  - :path: app/assets/stylesheets/960.css
+    :cursor_offset: 0
+    :timestamp: 2012-02-03 06:08:04 +01:00
+  - :path: app/views/resumes/edit.html.erb
+    :cursor_offset: 475
+    :timestamp: 2012-10-03 12:51:34.591000 +02:00
+  - :path: app/views/resumes/show.html.erb
+    :cursor_offset: 1119
+    :timestamp: 2012-10-03 15:21:47.229000 +02:00
+  - :path: app/views/users/show.html.erb
+    :cursor_offset: 274
+    :timestamp: 2012-10-02 10:15:48.391000 +02:00
+  - :path: config/routes.rb
+    :cursor_offset: 343
+    :timestamp: 2012-10-03 12:52:59.254000 +02:00
+  - :path: app/models/job.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-02 11:36:14.345000 +02:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 531
+    :timestamp: 2012-10-03 16:03:31.966000 +02:00
 files_to_retain: 0

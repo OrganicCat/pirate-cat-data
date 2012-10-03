@@ -1,0 +1,48 @@
+<h1>Editing resume</h1>
+
+<%= render 'form' %>
+
+<h2>Skills:</h2>
+<%= form_for([@resume, @resume.skills.build]) do |f| %>
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :rating %><br />
+    <%= f.text_field :rating %>
+  </div>
+  <div class="field">
+    <%= f.label :years %><br />
+    <%= f.text_field :years %>
+  </div.>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
+<h2>Jobs:</h2>
+<%= form_for([@resume, @resume.jobs.build]) do |f| %>
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :company %><br />
+    <%= f.text_field :company %>
+  </div>
+  <div class="field">
+    <%= f.label :summary %><br />
+    <%= f.text_field :summary %>
+  </div>
+  <div class="field">
+    <%= f.label :years %><br />
+    <%= f.text_field :years %>
+  </div.>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
+<%= link_to 'Show', @resume %> |
+<%= link_to 'Back', resumes_path %>

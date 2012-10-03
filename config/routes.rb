@@ -1,5 +1,10 @@
 PirateCatData::Application.routes.draw do
+  
   resources :users
+  resources :resumes do
+    resources :skills
+    resources :jobs
+  end
 
   get "home/index"
 
